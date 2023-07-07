@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html {
+    background-color: hsl(219, 67%, 85%);
+}
+
+body {
+    font-family: Outfit;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    max-width: 375px;
+    width: 90%;
+    -webkit-box-shadow: 14px 10px 38px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 14px 10px 38px 0px rgba(0,0,0,0.11);
+    box-shadow: 14px 10px 38px 0px rgba(0,0,0,0.11);
+}
+
+.qr-holder {
+    overflow: hidden;
+    margin: 25px auto;
+    max-width: 325px;
+    height: 325px;
+    width: 90%;
+    background-color: hsl(217, 66%, 53%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255 255 255 / 9%);
+    z-index: 1;
+}
+
+.bottom-circle {
+    top: 75%;
+    left: 66%;
+}
+
+.top-circle {
+    top: -17%;
+    left: -25%;
+}
+
+.qr-information {
+    margin: 0 auto;
+    padding: 0px 0px 50px 0px;
+    width: 80%;
+    font-weight: 400;
+    color: hsl(212deg 16.07% 53.37%)
+}
+
+.qr-information > h2 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
